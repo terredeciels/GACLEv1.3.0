@@ -118,6 +118,7 @@ public class GGame extends Generateur {
 
             IIA ia1 = new IA_1();
             gcoups = ia1.evaluate(coupsvalides, ordi_couleur);
+            
             g_position = executeMove(g_position, gcoups, ordi_couleur);
             g_position.setGCoups(gcoups);
             g_position.setNum_coups(num_coups++);
